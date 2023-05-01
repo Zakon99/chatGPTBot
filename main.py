@@ -15,7 +15,7 @@ chatgpt_model = 'gpt-3.5-turbo'
 
 # Twitch-Client erstellen
 bot = commands.Bot(
-    token = twitch_oath_token,
+    token = twitch_oauth_token,
     client_id=twitch_clientId,
     nick=twitch_username,
     prefix='!',
